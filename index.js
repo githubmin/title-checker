@@ -14,7 +14,7 @@ function findTitle(content, title) {
     // The result can be accessed through the `m`-variable.
     m.forEach((match, groupIndex) => {
       if (groupIndex == 1) {
-        console.log(`[DEBUG] Found match, group ${groupIndex}: ${match}`)
+        // console.log(`[DEBUG] Found match, group ${groupIndex}: ${match}`)
         newTitle = match
       }
     })
